@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>General Form</title>
+</head>
+<body>
+<h2>Captcha forms</h2>
+<form>
+    <fieldset>
+        <br>
+        <legend>Personal Details</legend>
+    <label for="Captcha">Enter Captcha: <span style="color: red;">*</span></label>
+    <input type="text" id="Captcha" name="Captcha" placeholder="Enter Captcha Here" title="Enetr Captcha in 30 initial-scale" required>
+    <br><br>
+    <label for="un">Enter username</label>
+    <input type="text" id="un" name="username">
+    <br><br>
+    <label for="mail">Enter Email: </label>
+    <input type="email" id="mail" name="email">
+    <br><br>
+    <label for="password">Enter Password:</label>
+    <input type="password" id="password" name=""Password autocomplete="off">
+    <br><br> 
+    <label for="mobile">Enter Mobile Number:</label> 
+    <input type="tel" id="mobile" name="mobile">
+    <br><br>
+    <label for="age">Enter Age:</label>
+    <input type="number" id="age" name="Age" min="1" max="200">
+    <br><br>
+    <label for="DOB">Enter DOB:</label>
+    <input type="date" id="DOB" name="DOB">
+    <br><br>
+    </fieldset>
+    <br><br>
+    <fieldset>
+        <br>
+        <legend>Generic Details</legend>
+    <label for="time">Enter check-in time:</label>
+    <input type="time" id="time" name="time">
+    <br><br>
+    <label for="url">Enter website url:</label>
+    <input type="url" id="url" name="url">
+    <br><br>
+    <label>
+     <input type="checkbox" name="op1" value="html"> HTML
+    </label>
+    <label>
+    <input type="checkbox" name="op2" value="css"> CSS
+    </label>
+    <label>
+    <input type="checkbox" name="op3" value="js"> JAVASCRIPT
+    </label>
+    <br><br>
+    <label>Enter Gender:</label>
+    <label>
+    <input type="radio" name="gender" value="M"> Male
+    </label>
+    <label>
+    <input type="radio" name="gender" value="F"> Female
+    </label>
+    <br><br>
+    <label>Upload PAN Card :</label>
+    <input type="file" accept=".pdf">
+    <br><br>
+    <label>Rate yourself in HTML:</label>
+    <input type="range" min="0" max="10" name="rating" value="1">
+    <br><br>
+    <label for="color">Choose your fav color:</label>
+    <select id="color" name="fav-color" size="2">
+        <option value="pink"?>pink</option>
+        <option value="white">white</option>
+        <option value="black">black</option>
+        <option value="blue" selected>blue</option>
+    </select>
+    <br><br>
+     <label for="fedback">Enter Feedback:</label>
+     <textarea id="feedback" rows="5" cols="50" name="feedback" placeholder="feedback here..."></textarea>
+        Enter feedback here..
+     <!--<input type="text">-->
+    <br><br>
+    </fieldset>
+    <button type="Submit">Submit</button>
+    <input type="reset" value="Cancel">
+</form>
+</body>
+</html><br><br>
+    

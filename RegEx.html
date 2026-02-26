@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RegExg</title>
+</head>
+<body>
+    <form>
+    <label for="name">Enter your name:</label>
+        <input type="text"  id="name" pattern="^[A-Z]{1}[a-z]{1,49}[][A-Z]{1}[a-z]{1,49}$" name="username">
+        <br><br>
+        <label>Enter Phone Number</label>
+        <input type="tel" pattern="^\d{3}-\d{3}-\d{4}$"name="phone">
+        <br><br>
+        <label for="pwd">Enter Password:</label>
+        <input type="text" pattern="^.[A-Za-z\d@$!%*?&#]{8,}$" name="pwd">
+        <br><br>
+        <input type="submit">
+        <input type="reset">
+    </form>
+</body>
+</html>
